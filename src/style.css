@@ -26,7 +26,7 @@ body {
   margin-left: auto;
 }
 
-nav ul {
+.nav ul {
   margin-block: 0 !important;
   list-style: none;
   display: flex;
@@ -34,21 +34,21 @@ nav ul {
   padding-inline-start: 0;
 }
 
-nav ul li {
+.nav ul li {
   display: inline-block;
   text-align: center;
   margin: 0 10px;
 }
 
-nav ul li:first-child {
+.nav ul li:first-child {
   margin-left: 0;
 }
 
-nav ul li:last-child {
+.nav ul li:last-child {
   margin-right: 0;
 }
 
-nav a {
+.nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
@@ -60,11 +60,11 @@ nav a {
   display: inline-block;
 }
 
-nav ul li a:hover {
+.nav ul li a:hover {
   color: var(--nav-blue);
 }
 
-.is-active {
+a.is-active {
   color: var(--nav-blue);
   position: relative;
 }
